@@ -2,7 +2,7 @@
   "name": "depth",
   "version": "0.1.0",
   "private": true,
-  "description": "depth test",
+  "description": "LUDUM DARE 50 gibberish, side-repo for depth",
   "type": "module",
   "workspaces": [
     "web",
@@ -10,7 +10,6 @@
     "tests"
   ],
   "scripts": {
-    "cy:open": "cypress open",
     "wipe": "pnpm recursive exec -- rm -rf node_modules build dist types tsconfig.tsbuildinfo pnpm-lock.yaml",
     "wiper": "sh scripts/wipe_all.sh",
     "dev": "pnpm --parallel --if-present dev",
