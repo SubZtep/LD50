@@ -1,0 +1,20 @@
+{
+  "name": "@depth/statem",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@depth/misc": "workspace:*",
+    "uuid": "^8.3.2"
+  },
+  "author": "Andras Serfozo <subztep@gmail.com>",
+  "license": "Unlicense",
+  "devDependencies": {
+    "@types/uuid": "^8.3.4"
+  }
+}

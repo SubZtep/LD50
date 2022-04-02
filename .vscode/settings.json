@@ -1,0 +1,57 @@
+{
+  "deno.enable": false,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "windicss.enableCodeFolding": true,
+  "windicss.foldByLength": true,
+  "css.validate": false,
+  "css.lint.emptyRules": "ignore",
+  "files.associations": {
+    ".prettierrc": "yaml",
+    "**/.eslintrc": "yaml"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "search.exclude": {
+    "**/.git": true,
+    "**/*.js": true,
+    "**/*.d.ts": true,
+    "**/*.spec.ts": true,
+    "**/build": true,
+    "**/node_modules": true
+  },
+  "files.exclude": {
+    "**/dist": true,
+    "**/node_modules": true,
+    "**/tsconfig.tsbuildinfo": true
+  },
+  "files.watcherExclude": {
+    "**/node_modules": true,
+    "**/build": true
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[postcss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
+  "lit-plugin.rules.no-unknown-attribute": "off",
+  "lit-plugin.rules.no-invalid-css": "off",
+  "window.title": "d̸͔́è̶̖̝̭m̸̯̪͆̋̈́̉͜o̵͖͍̪̮̾́̀̎.̶̧̰̫̤͐̔̉́̎l̸̡̛͕͍̞a̷̮̾͘ń̵̠̯d̶͈̫̎͝ⒹⒺⓅⓉⒽ 龴ↀ◡ↀ龴 ▂▃▅▇█▓▒░ ${activeEditorMedium}  ░▒▓█▇▅▃▂ ⺌${dirty}‿${dirty}⺌ ⒹⒺⓅⓉⒽd̸͔́è̶̖̝̭m̸̯̪͆̋̈́̉͜o̵͖͍̪̮̾́̀̎.̶̧̰̫̤͐̔̉́̎l̸̡̛͕͍̞a̷̮̾͘ń̵̠̯d̶͈̫̎͝",
+  "workbench.colorTheme": "chalice-color-theme-dark-mono",
+}

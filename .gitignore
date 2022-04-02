@@ -1,0 +1,13 @@
+!/web/public/libs/.gitkeep
+.env
+.pnpm-debug.log
+coverage
+dist
+# !/web/dist
+build
+node_modules
+tsconfig.tsbuildinfo
+web/public/libs/
+web/public/models/origin/
+web/public/story/
+tests/coverage

@@ -1,0 +1,17 @@
+{
+  "name": "@depth/tests",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "author": "Andras Serfozo <subztep@gmail.com>",
+  "license": "Unlicense",
+  "devDependencies": {
+    "@depth/statem": "workspace:*",
+    "c8": "^7.11.0",
+    "happy-dom": "^2.55.0",
+    "vitest": "^0.8.1"
+  }
+}

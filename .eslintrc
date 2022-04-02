@@ -1,0 +1,81 @@
+root: true
+
+env:
+  browser: true
+  node: true
+
+extends:
+  - "eslint:recommended"
+  - "plugin:@typescript-eslint/recommended"
+  - "prettier"
+  - "plugin:unicorn/recommended"
+  - "plugin:lit/recommended"
+  - "plugin:wc/recommended"
+
+parserOptions:
+  ecmaVersion: 12
+  parser: "@typescript-eslint/parser"
+  sourceType: module
+
+plugins:
+  - "@typescript-eslint"
+  - "prettier"
+  - "eslint-plugin-tsdoc"
+  - "unicorn"
+
+rules:
+  "prettier/prettier": warn
+  "tsdoc/syntax": warn
+  "linebreak-style":
+    - error
+    - unix
+  "quotes":
+    - error
+    - double
+  "semi":
+    - error
+    - never
+  "indent":
+    - warn
+    - 2
+    - SwitchCase: 1
+
+  "prefer-const": warn
+  "no-constant-condition": warn
+
+  "@typescript-eslint/no-unused-vars":
+    - warn
+    - argsIgnorePattern: "^_"
+
+  "@typescript-eslint/no-inferrable-types": warn
+  "@typescript-eslint/explicit-module-boundary-types": off
+  "@typescript-eslint/no-non-null-assertion": off
+  "@typescript-eslint/ban-ts-comment": off
+  "@typescript-eslint/no-empty-function": warn
+  "@typescript-eslint/no-explicit-any": off
+  "unicorn/filename-case": off
+  "unicorn/number-literal-case": off
+  "unicorn/numeric-separators-style": off
+  "unicorn/no-nested-ternary": off
+  "unicorn/consistent-destructuring": off
+  "unicorn/no-null": off
+  "unicorn/no-object-as-default-parameter": off
+  "unicorn/no-await-expression-member": off
+  "unicorn/prefer-export-from":
+    - error
+    - ignoreUsedVariables: true
+  "unicorn/prevent-abbreviations":
+    - warn
+    - ignore: [
+        "props", "Props", "err", "el", "isDev", "Fn", "fn", "Param",
+        "params", "src", "ext", "Ref", "obj", "i", "ev", "args",
+      ]
+
+ignorePatterns:
+  # - "server"
+  - "**node_modules/"
+  - "**public/"
+  - "**types/"
+  - "**dist/"
+  - "*.d.ts"
+  - "*.js"

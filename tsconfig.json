@@ -1,0 +1,22 @@
+{
+  "exclude": ["node_modules", "server"],
+  "files": [],
+  "include": [],
+  "references": [
+    {
+      "path": "./lib/misc"
+    },
+    {
+      "path": "./lib/canvas"
+    },
+    {
+      "path": "./lib/ui"
+    },
+    {
+      "path": "./web"
+    },
+    {
+      "path": "./tests"
+    }
+  ]
+}
